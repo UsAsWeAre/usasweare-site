@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Us As We Are</title>
+  <meta name="description" content="Us As We Are is a documentary series about the people and places of Southern Oregon.">
+  <link rel="icon" href="data:,">
+  <style>
+    @font-face {
+      font-family: "UAWA Display"; font-style: normal; font-weight: 700; font-display: swap;
+      src: url("/fonts/rubik-latin-700.woff2") format("woff2");
+    }
+    :root { --blue: #0F2C52; --yellow: #FFD200; --text: #F3F5F8; --muted: #B9C8DC; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      background: var(--blue); color: var(--text);
+      font: 18px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+      display: flex; flex-direction: column; min-height: 100vh;
+    }
+    main { flex: 1; display: flex; flex-direction: column; justify-content: center; max-width: 680px; margin: 0 auto; padding: 48px 20px; }
+    h1 {
+      font-family: "UAWA Display", "Arial Black", sans-serif; font-weight: 700; text-transform: uppercase;
+      color: var(--yellow); letter-spacing: 0.04em; line-height: 1.05; font-size: clamp(40px, 11vw, 76px); margin: 0 0 22px;
+    }
+    p.about { font-size: clamp(18px, 2.6vw, 21px); margin: 0 0 30px; }
+    .links { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 40px; }
+    .btn {
+      display: inline-block; text-decoration: none; font-weight: 700; padding: 12px 22px; border-radius: 10px;
+      background: var(--yellow); color: #111; font-size: 17px;
+    }
+    .btn.alt { background: transparent; color: var(--yellow); border: 2px solid var(--yellow); }
+    .btn:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+    .aggregate { font-size: 15px; color: var(--muted); margin: 0; }
+    .aggregate a { color: var(--text); }
+    footer { color: var(--muted); font-size: 14px; text-align: center; padding: 20px 16px 28px; }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Us As We Are</h1>
+    <p class="about"><em>Us As We Are</em> is a documentary series about the people and places of Southern Oregon. Our goal is to tell stories of broad relevance with our regional lens.</p>
+    <div class="links">
+      <a class="btn" href="https://www.youtube.com/@UsAsWeAre" rel="noopener">Watch on YouTube</a>
+      <a class="btn alt" href="https://www.sopbs.org/usasweare" rel="noopener">Watch on PBS</a>
+    </div>
+    <p class="aggregate"><a href="https://news.usasweare.org/request-invite">UAWAggregate</a>: our Southern Oregon news aggregator, in an invite-only test.</p>
+  </main>
+  <footer>
+    Us As We Are · A Rogue Media Initiative project by Keegan Van Hook · Ashland, Oregon ·
+    <a href="mailto:hello@usasweare.org">hello@usasweare.org</a>
+  </footer>
+</body>
+</html>
